@@ -12,8 +12,8 @@ class Test(unittest.TestCase):
 
     def test_first_last_middle_name(self):
         """Do names like Martin Luther King work?"""
-        formatted_name = get_formatted_name('wolfgang', 'mozart', 'amadeus')
-        self.assertEqual(formatted_name, 'Wolfgang Amadeus Mozart')
+        formatted_name = get_formatted_name('Martin', 'king', 'luther')
+        self.assertEqual(formatted_name, 'Martin Luther King')
 
 
 if __name__ == '__main__':
